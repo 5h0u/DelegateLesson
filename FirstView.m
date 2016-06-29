@@ -8,6 +8,12 @@
 
 #import "FirstView.h"
 
+@interface FirstView()
+
+@property (weak, nonatomic) IBOutlet UIButton *firstButton;
+
+@end
+
 @implementation FirstView
 
 //初期設定メソッド

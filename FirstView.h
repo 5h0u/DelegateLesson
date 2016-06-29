@@ -18,10 +18,6 @@
 
 @property (weak, nonatomic) id<firstViewDelegate> delegate;
 
-@property (weak, nonatomic) IBOutlet UIButton *firstButton;
-
 -(void)firstViewInit;
-
--(void)pressSecondView:(UIButton *)button;
 
 @end
